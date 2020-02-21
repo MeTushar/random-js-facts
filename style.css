@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Open+Sans:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lacquer';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #35A7FF;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    background: #6BF178;
+    color: #fff;
+    font-size: 33px;
+    border-radius: 5px;
+}
+
+.facts {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    width: 400px;
+}
